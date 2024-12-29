@@ -2,9 +2,16 @@
 <html lang="en">
 
 <head>
-	<link rel='stylesheet' id='style' href='style.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='style'
+		href='https://cdn.jsdelivr.net/gh/lealiaxiong/lealiaxiong.github.io@main/style.css' type='text/css'
+		media='all' />
 	<!--Card Stylesheet-->
-	<link rel='stylesheet' href='cards.css'>
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/lealiaxiong/lealiaxiong.github.io@main/cards.css'
+		type='text/css' media="all" />
+
+	<!--Nav bar for small screens-->
+	<script type='text/javascript'
+		src='https://cdn.jsdelivr.net/gh/lealiaxiong/lealiaxiong.github.io@main/navbar_mobile.js'></script>
 
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -158,7 +165,7 @@
 		<div id="navbar"></div>
 
 		<script>
-			fetch('navbar.html')
+			fetch('https://cdn.jsdelivr.net/gh/lealiaxiong/lealiaxiong.github.io@main/navbar.html')
 				.then(response => response.text())
 				.then(data => document.getElementById('navbar').innerHTML = data);
 		</script>
