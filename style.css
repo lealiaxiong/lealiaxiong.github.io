@@ -39,12 +39,6 @@
 
 /* Toggle CSS based on https://codepen.io/nikkk-me/pen/abvPjeG */
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 .switch-button {
     background: rgba(0, 0, 0, 0.75);
     border-radius: 12px;
