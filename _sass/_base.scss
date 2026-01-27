@@ -11,6 +11,10 @@ h1 {
   margin: .5em auto;
 }
 
+h1.title {
+  font-family: $font-family-bold;
+}
+
 h2 {
   font-size: 2em;
   margin: 1em auto;
@@ -42,6 +46,10 @@ h6 {
   font-style: italic;
   margin: 2.25em auto;
   text-align: center;
+}
+
+site-title {
+  font-family: $font-family-bold
 }
 
 em {
